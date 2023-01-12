@@ -21,4 +21,4 @@ jobs:
         pip install -r requests.txt
     - name: Analysing the code with pylint
       run: |
-        pylint $(git ls-files '/main.py')
+        pylint $(git ls-files 'main.py')
