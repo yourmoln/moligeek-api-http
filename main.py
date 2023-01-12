@@ -22,3 +22,5 @@ async def getip(ip:str):
 @app.get("/localhost/hostinfo/")
 async def hostinfp():
     return localhost.hostinfo()
+
+print("moligeek-api-http已启动")
