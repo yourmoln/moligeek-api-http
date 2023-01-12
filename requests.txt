@@ -1,0 +1,6 @@
+fastapi
+uvicorn
+requests
+meo
+bs4
+pywifi
