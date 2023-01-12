@@ -1,6 +1,5 @@
 import os,subprocess,sys
 from fastapi import FastAPI
-import uvicorn
 
 script_path = os.path.split(os.path.realpath(__file__))[0]
 sys.path.append(script_path)
