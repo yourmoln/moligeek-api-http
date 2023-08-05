@@ -1,0 +1,3 @@
+moligeek
+fastapi
+uvicorn
