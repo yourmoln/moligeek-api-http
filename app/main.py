@@ -8,7 +8,10 @@ import app.router as router
 app = FastAPI()
 app.include_router(router.about.router, prefix="/about")
 app.include_router(router.zip.router, prefix="/zip")
-
+app.include_router(router.web.router, prefix="/web")
+app.include_router(router.network.router, prefix="/network")
+app.include_router(router.LAN.router, prefix="/LAN")
+app.include_router(router.encode.router, prefix="/encode")
 class Item(BaseModel):
     name: str
     price: float

@@ -26,3 +26,4 @@ async def show_info():
                 "copyright": api_info.__copyright__,
                 }
             }
+
